@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CED3E4EA-C586-A03A-60D3-DCE5526835FB}</ProjectGuid>
+    <ProjectGuid>{54067C8F-5156-18D1-1777-7BD82BAD7FE5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,10 +56,10 @@
     <Analyzer Include="D:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RingStack\Codes\Drag.cs" />
+    <Compile Include="Assets\RingStack\Codes\control.cs" />
     <Compile Include="Assets\RingStack\Codes\GameMannager.cs" />
-    <Compile Include="Assets\RingStack\Codes\ForGreen.cs" />
-    <Compile Include="Assets\RingStack\Codes\ForRed.cs" />
+    <Compile Include="Assets\RingStack\Codes\BoxFeedbacker.cs" />
+    <Compile Include="Assets\FinalGameMannager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
